@@ -53,7 +53,6 @@ if(!String.prototype.format) {
          * http://localhost/component/bootstrap-calendar/tmpls/
          */
         tmpl_path: 'tmpls/',
-        tmpl_cache: true,
         classes: {
             months: {
                 inmonth: 'cal-day-inmonth',
@@ -609,8 +608,7 @@ if(!String.prototype.format) {
             url: this.options.tmpl_path + name + '.html',
             dataType: 'html',
             type: 'GET',
-            async: false,
-            cache: this.options.tmpl_cache
+            async: false
         }).done(function(html) {
                 self.options.templates[name] = _.template(html);
             });
@@ -620,7 +618,7 @@ if(!String.prototype.format) {
     Calendar.prototype._update = function() {
         var self = this;
 
-        $('*[data-toggle="tooltip"]').tooltip({container: 'body'});
+        $('*[rel="tooltip"]').tooltip();
 
         $('*[data-cal-date]').click(function() {
             var view = $(this).data('cal-view');
