@@ -609,7 +609,6 @@ if(!String.prototype.format) {
             url: this.options.tmpl_path + name + '.html',
             dataType: 'html',
             type: 'GET',
-            async: false
             async: false,
             cache: this.options.tmpl_cache
         }).done(function(html) {
@@ -621,7 +620,7 @@ if(!String.prototype.format) {
     Calendar.prototype._update = function() {
         var self = this;
 
-        $('*[rel="tooltip"]').tooltip();
+        $('*[data-toggle="tooltip"]').tooltip({container: 'body'});
 
         $('*[data-cal-date]').click(function() {
             var view = $(this).data('cal-view');
