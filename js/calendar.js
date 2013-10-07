@@ -804,6 +804,8 @@ if(!String.prototype.format) {
 	Calendar.prototype._update_modal = function() {
 		var self = this;
 
+		$('a[data-event-id]').unbind('click');
+
 		if(!self.options.modal) {
 			return;
 		}
