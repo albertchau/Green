@@ -1,0 +1,226 @@
+
+.btn-large {
+    height:200px;
+}
+
+.input-custom {
+    padding: 550px 100px;
+    line-height: 30px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.btn-large {
+    width:200px;
+}
+
+.bigger{
+    height: 50px;
+}
+.input-group-addon {
+    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.nav-arrows {
+    padding: 0;
+    border: none;
+    background: none;
+    color: #000000;
+}
+
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);*/
+/*body {*/
+    /*background: #262626;*/
+    /*font-family: Arial, sans-serif;*/
+/*}*/
+
+/*h1 {*/
+    /*text-align: center;*/
+    /*text-transform: uppercase;*/
+    /*font-family: "Open Sans", sans-serif;*/
+    /*font-size: 27px;*/
+    /*color: #444444;*/
+    /*font-weight: 700;*/
+/*}*/
+/*h1 span {*/
+    /*font-weight: 400;*/
+/*}*/
+
+/*.container {*/
+    /*width: 735px;*/
+    /*margin: 50px auto;*/
+    /*background: whitesmoke;*/
+    /*padding: 25px;*/
+/*}*/
+
+.button {
+    border: 0 none;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 7px 10px;
+    text-transform: none;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    width: 100%;
+    /* auto */
+    text-align: center;
+    /* DELETE WHEN WIDTH AUTO */
+}
+.button.red {
+    background: none repeat scroll 0 0 #e0645c;
+    color: white;
+}
+.button.red:hover {
+    background: none repeat scroll 0 0 #999999;
+    color: white;
+}
+.button.dark {
+    background: none repeat scroll 0 0 #444444;
+    color: white;
+}
+.button.dark:hover {
+    background: none repeat scroll 0 0 #2db6cf;
+    color: white;
+}
+.button.light {
+    background: none repeat scroll 0 0 #999999;
+    color: white;
+}
+.button.light:hover {
+    background: none repeat scroll 0 0 #444444;
+    color: white;
+}
+.button.green {
+    background: none repeat scroll 0 0 #46b98a;
+    color: white;
+}
+.button.green:hover {
+    background: none repeat scroll 0 0 #444444;
+    color: white;
+}
+.button.blue {
+    background: none repeat scroll 0 0 #2db6cf;
+    color: white;
+}
+.button.blue:hover {
+    background: none repeat scroll 0 0 #444444;
+    color: white;
+}
+
+/*section, section div {*/
+     /*See it in slo-mo, you can change this*/
+    /*transition-duration: .6s;*/
+/*}*/
+
+
+/*section, .button { transition-timing-function: ease; }*/
+
+/*section {*/
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*padding: .375rem .375rem 0;*/
+    /*height: 2.5rem;*/
+    /*background: #A9ADB6;*/
+    /*border-radius: .25rem;*/
+    /*perspective: 300;*/
+    /*box-shadow: 0 -1px 2px #fff, inset 0 1px 2px rgba(0,0,0,.2), inset 0 .25rem 1rem rgba(0,0,0,.1);*/
+/*}*/
+
+
+/*.button { opacity: 0; }*/
+
+/*.cover {*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*transform-origin: center bottom;*/
+    /*transform-style: preserve-3d;*/
+    /*font: 1.25em/2 "icon";*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*pointer-events: none;*/
+    /*z-index: 100;*/
+/*}*/
+
+/*.innie, .outie, .spine, .shadow { position: absolute; width: 100%; }*/
+
+/*.innie, .outie {*/
+    /*height: 100%;*/
+    /*background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,.1) 100%);*/
+    /*border-radius: .25rem;*/
+/*}*/
+/*.innie:after, .outie:after { content:"t"; }*/
+
+/*.innie {*/
+    /*background-color: #67E2FE;*/
+    /*text-shadow: 0 -2px 4px rgba(0,0,0,.2);*/
+/*}*/
+
+/*.spine {*/
+    /*top: .25rem;*/
+    /*background: #20C7F3;*/
+    /*height: .25rem;*/
+    /*transform: rotateX(90deg);*/
+    /*transform-origin: center top;*/
+/*}*/
+
+/*.shadow {*/
+    /*top: 100%;*/
+    /*left: 0;*/
+    /*height: 3.5rem;*/
+    /*transform-origin: center top;*/
+    /*transform: rotateX(90deg);*/
+    /*opacity: 0;*/
+    /*z-index: 0;*/
+    /*background-image: -webkit-linear-gradient(top, rgba(0,0,0,.6) 0%, transparent 100%);*/
+    /*background-image: linear-gradient(to bottom, rgba(0,0,0,.6) 0%, transparent 100%);*/
+    /*border-radius: .4rem;*/
+
+/*}*/
+
+/*.outie {*/
+    /*background-color: #2EC8FA;*/
+    /*transform: translateZ(.25rem);*/
+    /*text-shadow: 0 2px 4px rgba(0,0,0,.2);*/
+/*}*/
+
+/*section:hover { background: #EBEFF2; }*/
+/*section:hover .button { opacity: 1; }*/
+
+/*section:hover .cover, section:hover .innie, section:hover .spine, section:hover .outie, section:hover .spine { transition-timing-function: cubic-bezier(.2,.7,.1,1.1); }*/
+
+/*section:hover .cover { transform: rotateX(-120deg);  }*/
+
+/*section:hover .innie { background-color: #3ADAFC; }*/
+/*section:hover .spine { background-color: #52B1E0; }*/
+/*section:hover .outie { background-color: #2174A0; color: rgba(255,255,255,0); }*/
+
+/*section:hover .shadow {*/
+    /*opacity: 1;*/
+    /*transform: rotateX(45deg) scale(.95);*/
+/*}*/
+
+
+/*small {*/
+    /*font: .8rem/1 sans-serif;*/
+    /*padding-top: 4rem;*/
+    /*color: #777;*/
+/*}*/
+/*small a { color: #222; text-decoration: none; border-bottom: thin solid #ccc; }*/
+/*small a:hover { border-bottom-color: #222; }*/
+
+
+ /*Twitter font icon: http://codepen.io/bennettfeely/pen/GCAKJ*/
+/*@font-face { font-family:icon; src: url('http://bennettfeely.com/fonts/icons.woff'); }*/
+

@@ -231,9 +231,9 @@
   width: 0;
   height: 0;
   right: 0;
-  border-top: 15px solid #ffffff;
+  border-top: 15px solid #e1e1e1;
   border-left: 8px solid;
-  border-bottom: 15px solid #FFFFFF;
+  border-bottom: 15px solid #e1e1e1;
 }
 .cal-week-box .arrow-before:before {
   content: "";
@@ -381,7 +381,7 @@
 .cal-row-head [class*="cal-cell"] {
   font-weight: bolder;
   text-align: center;
-  border: 0px solid;
+  border: 1px;
   padding: 5px 0;
 }
 .cal-row-head [class*="cal-cell"] small {
@@ -389,7 +389,7 @@
 }
 .cal-year-box .row-fluid:hover,
 .cal-row-fluid:hover {
-  background-color: #fafafa;
+  /*background-color: #fafafa;*/
 }
 .cal-month-day {
   height: 100px;
@@ -400,7 +400,7 @@
 .cal-year-box [class*="span"],
 .cal-month-box [class*="cal-cell"] {
   min-height: 100px;
-  border-right: 1px solid #e1e1e1;
+  border-right: 1px solid #000;
   position: relative;
 }
 .cal-year-box [class*="span"] {
@@ -412,7 +412,7 @@
 }
 .cal-year-box .row-fluid,
 .cal-month-box .cal-row-fluid {
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #000;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -423,16 +423,16 @@
 .cal-month-box,
 .cal-year-box,
 .cal-week-box {
-  border-top: 1px solid #e1e1e1;
-  border-bottom: 1px solid #e1e1e1;
-  border-right: 1px solid #e1e1e1;
-  border-left: 1px solid #e1e1e1;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
   border-radius: 2px;
 }
 span[data-cal-date] {
   font-size: 1.2em;
   font-weight: normal;
-  opacity: 0.5;
+  opacity: 1;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -465,7 +465,7 @@ span[data-cal-date]:hover {
   color: darkred;
 }
 #cal-week-box {
-  border: 1px solid #e1e1e1;
+  border: 1px solid #000;
   border-right: 0px;
   border-radius: 5px 0 0 5px;
   background-color: #fafafa;

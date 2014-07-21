@@ -584,7 +584,9 @@ if(!String.prototype.formatNum) {
 		t.data_day = this.options.position.start.getFullYear() + '-' + (newmonth < 10 ? '0' + newmonth : newmonth) + '-' + '01';
 		t.month_name = this.locale['m' + month];
 
+
 		var curdate = new Date(this.options.position.start.getFullYear(), month, 1, 0, 0, 0);
+        console.log(curdate);
 		t.start = parseInt(curdate.getTime());
 		t.end = parseInt(new Date(this.options.position.start.getFullYear(), month + 1, 1, 0, 0, 0).getTime());
 		t.events = this.getEventsBetween(t.start, t.end);
@@ -713,10 +715,12 @@ if(!String.prototype.formatNum) {
 		this._render();
 
 		this.options.onAfterViewLoad.call(this, this.options.view);
-	};
+
+    };
 
 	Calendar.prototype.navigate = function(where, next) {
-		var to = $.extend({}, this.options.position);
+
+        var to = $.extend({}, this.options.position);
 		if(where == 'next') {
 			switch(this.options.view) {
 				case 'year':
@@ -843,7 +847,9 @@ if(!String.prototype.formatNum) {
 	}
 
 	Calendar.prototype._loadEvents = function() {
-		var self = this;
+
+        var self = this;
+        var widt = myDataRef;
 		var source = null;
 		if('events_source' in this.options && this.options.events_source !== '') {
 			source = this.options.events_source;
